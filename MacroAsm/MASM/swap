@@ -1,0 +1,10 @@
+#ifndef SWAP
+#define SWAP
+
+#macros swap ( 1,2 )
+	mov r128, $1
+	mov $1, $2
+	mov $2, r128
+#endmacro
+
+#endif

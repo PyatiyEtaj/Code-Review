@@ -1,0 +1,21 @@
+#import <square>
+;#import <swap>
+
+;#import <square>
+
+;#define PI 3.14
+
+MAIN : func
+	input int r1
+	input int r2
+
+	swap r1, r2
+
+	output int r1
+	output int r2
+
+	square 10, r10
+	output int r10
+	END MAIN
+
+

@@ -1,0 +1,18 @@
+﻿MAIN : func
+	input int r1
+	input int r2
+
+	swap r1, r2
+
+	output int r1
+	output int r2
+
+	
+	sqr: real PI, 10
+	upld r128, sqr
+	mul real r128, r128+1
+	mul real r128, r128+1
+	upld r10, r128
+
+	output int r10
+	END MAIN

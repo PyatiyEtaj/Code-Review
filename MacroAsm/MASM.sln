@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MASM", "MASM\MASM.csproj", "{66FBB76D-4A3C-483A-8717-CA737A35600F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lexer", "Lexer\Lexer.csproj", "{F6A860D4-48AD-4F38-838A-D8FC1B4D6A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66FBB76D-4A3C-483A-8717-CA737A35600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FBB76D-4A3C-483A-8717-CA737A35600F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FBB76D-4A3C-483A-8717-CA737A35600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FBB76D-4A3C-483A-8717-CA737A35600F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A860D4-48AD-4F38-838A-D8FC1B4D6A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A860D4-48AD-4F38-838A-D8FC1B4D6A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A860D4-48AD-4F38-838A-D8FC1B4D6A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A860D4-48AD-4F38-838A-D8FC1B4D6A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E883C2F-7DC1-427E-AEE3-176D408F8D60}
+	EndGlobalSection
+EndGlobal

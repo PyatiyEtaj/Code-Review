@@ -1,0 +1,12 @@
+#ifndef SQUARE
+#define SQUARE
+
+#macros square (1, 2)
+	sqr: real PI, $1
+	upld r128, sqr
+	mul real r128, r128+1
+	mul real r128, r128+1
+	upld $2, r128
+#endmacro
+
+#endif

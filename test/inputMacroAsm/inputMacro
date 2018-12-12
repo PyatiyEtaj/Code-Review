@@ -1,0 +1,43 @@
+#import <inputMacroAsm/square>
+#import <inputMacroAsm/swap>
+
+#define PI 3.14
+
+;**надо сделать человеческий вывод строк, а не это**
+      vvod: char [6] 'Vvedite 2 znacheniya'
+vivod_swap: char [2] 'SWAP'
+ square_10: char [7] 'ploshad kruga s r = 10'
+   endline: char [1] '\n'
+;***************************************************
+
+#macros out_char (1, 2)
+	upld r100, $1+1
+	#repeat $2 
+		output char r100
+		add_r const r100, 1
+	#endcycle
+	output char r50 ; вывод знака \n
+#endmacro
+
+MAIN: func
+	upld r50, endline+1
+
+	out_char vvod, 5
+	input int r1
+	input int r2
+	
+	out_char vivod_swap, 1
+	swap r1, r2
+
+	output int r1
+	output char r50
+	output int r2
+	output char r50
+	
+	out_char square_10, 6
+	square 10.0, r10
+	output real r10
+	output char r50
+	END MAIN
+
+

@@ -1,0 +1,14 @@
+#ifndef SQUARE
+#define SQUARE
+
+#macros square (1, 2)
+	sqr: real PI * $1 * $1 ; выполнение на этапе трансляции
+	;путь через выполнение кмд ассемблера
+	;upld r128, sqr
+	;mul real r128, r128+1
+	;mul real r128, r128+1
+	;mov $2, r128
+	upld $2, sqr
+#endmacro
+
+#endif
